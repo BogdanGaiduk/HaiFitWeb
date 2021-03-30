@@ -1,0 +1,30 @@
+/*!*style for settingsPage*!*/
+body {
+    background-color: #F4F4F4!important;
+    background-size: 100%;
+}
+
+/*settings panel*/
+.div-center-settings{
+    width: 100% !important;
+    border:white solid 5px!important;
+    border-radius: 10px!important;
+    background-color: white!important;
+    margin-bottom: 10px;
+    padding: 15px!important;
+}
+
+/*For text about verification in pup-up*/
+.hide,
+.hide+label~div {
+    display: none;
+}
+
+.hide:checked+label+div {
+    width: 95%!important;
+    display: block;
+    background: #FFFFFF;
+    padding: 10px;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}

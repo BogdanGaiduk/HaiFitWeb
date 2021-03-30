@@ -1,0 +1,93 @@
+/*style for diaryPage*/
+body {
+    background-color: #F4F4F4!important;
+    background-size: 100%;
+}
+
+/*buttons to add activity */
+.button-left-menu{
+    width: 100% !important;
+    background-color: #F4F4F4!important;
+    border-radius: 50px!important;
+    border: #F4F4F4 solid 3px!important;
+}
+
+/*right and left column of styles for meals */
+.left-column-style-for-meals{
+    background-color: white!important;
+    border-bottom: #13b102 solid 4px;
+}
+
+.right-column-style-for-meals{
+    background-color: white!important;
+    border-bottom: orange solid 4px;
+}
+
+/* the block in which the meals are located */
+.div-block-meals
+{
+    width: 100% !important;
+    margin-top: 0% !important;
+    background: white!important;
+    border-radius: 10px;
+    padding-top: 20px!important;
+    padding-right: 3px!important;
+    padding-left: 3px!important;
+    padding-bottom: 20px!important;
+}
+
+.add-product-button{
+    background-color: #13b102!important;
+    border-radius: 10px!important;
+    border:  #13b102 solid 3px !important;
+    color: white;!important;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+.invisible-date{
+    outline: none;
+    border: none;
+}
+
+/*hide the meal menu */
+.hide,
+.hide+label~div {
+    display: none;
+}
+
+.hide:checked+label+div {
+    width: 95%!important;
+    display: block;
+    background: #FFFFFF;
+    border-radius: 10px!important;
+
+    padding: 10px;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+
+/*!*_Calendar*!*/
+#Calendar {
+    position: absolute;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    border: 1px solid #303030;
+    display: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    z-index: 9999999;
+    box-shadow: 0 0 15px rgba(98, 98, 206, 1);
+}
+
+#Calendar_mns{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
+#Calendar select,#Calendar option {
+    font-size: 11px;
+    padding: 0 2px
+}

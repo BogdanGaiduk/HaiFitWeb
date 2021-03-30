@@ -1,0 +1,87 @@
+/*style for registrationPage*/
+body {
+    background-color: #E6E6E6!important;
+    background-size: 100%;
+}
+
+/*head*/
+.head-navbar{
+    background-color: #1D4354 !important;
+    height: 85px!important;
+}
+
+/*registration*/
+.center-registration{
+    background-color: black!important;
+    color: white!important;
+    border-radius: 15px!important;
+    margin-top: 10px!important;
+    margin-bottom: 0px!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    border: black solid 3px!important;
+}
+
+.div-for-registration{
+    margin-top: 0% !important;
+    background: white;
+    border-radius: 10px;
+    padding-top: 30px!important;
+    padding-right: 30px!important;
+    padding-left: 30px!important;
+    padding-bottom: 10px!important;
+}
+
+/*Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+/*button to move between steps*/
+button {
+    background-color: #00FF6E;
+    color: black !important;
+    font-weight: bolder!important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px!important;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/*registration step circle */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+/* Registration steps that have been completed: */
+.step.finish {
+    background-color: #00FF6E;
+}
+
+/*class allows you to disable the selection of text*/
+.nocopy{
+    -webkit-user-select: none; /* поддержка Safari Chrome*/
+    -moz-user-select: none; /*поддержка Firefox*/
+    -ms-user-select: none; /*поддержка Internet Explorer и Edge*/
+    user-select: none;
+}
+
+/*to enter code*/
+.text-for-check {
+    font-weight: bold;
+    font-size:24px!important;
+    display: inline-block;
+    transform: rotate(15deg) translate(10px) skewY(-30deg);
+}

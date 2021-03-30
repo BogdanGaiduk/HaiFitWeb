@@ -1,0 +1,45 @@
+/*style for headPage*/
+.head-navbar{
+    background-color: #1D4354 !important;
+}
+.head-navbar-logo{
+    margin-left: 3% !important;
+}
+.head-button-my-profile{
+    background-color: white!important;
+    width: 100% !important;
+    padding-top: 3px!important;
+    padding-bottom: 3px!important;
+    color: black!important;
+    border-radius: 50px!important;
+    border: white solid 3px!important;
+}
+.head-button-my-profile-icon{
+    background-color: #1D4354!important;
+    color: black!important;
+    border: #1D4354 solid 3px!important;
+}
+
+.head-navbar-search{
+    margin-left: 13% !important;
+}
+
+.for-search-form {
+    width: auto;
+    float: right;
+    margin-right: 30px;
+}
+
+.for-search-input {
+    width: 220px;
+    height: 35px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid white!important;
+    background: white;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+
+

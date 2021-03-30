@@ -1,0 +1,1 @@
+alter table usr add column code_update_password varchar(255);
